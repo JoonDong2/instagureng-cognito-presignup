@@ -1,0 +1,10 @@
+{
+  "name": "before-sign-up",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.662.0",
+    "graphql-request": "^1.8.2"
+  }
+}
