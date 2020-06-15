@@ -16,7 +16,7 @@
 AWS Lambda 홈페이지에 접속해서 해당 인스턴스의 환경 변수를 직접 추가해 주어야 한다.  
 * DEFAULT_IMAGE : 회원가입시 이미지가 입력되지 않은 경우 기본으로 설정될 이미지  
 * ENDPOINT : [백앤드](https://github.com/JoonDong2/instagureng-backend)를 배포할 때 관련 서비스로 생성된 AWS API Gateway 주소  
-* USER_POOL_ID: `amplfy`에 의해 생성된 AWS Cognito User Pool의 ID 
+* USER_POOL_ID: `amplfy`에 의해 생성된 AWS Cognito User Pool의 ID  
 참조: [Amplify 초기화](https://joondong.tistory.com/99)
   
 **예제**
