@@ -9,15 +9,15 @@
 ```
 참조 : [준동's 인스타그램 클론코딩 ](https://joondong.tistory.com/92)
   
-서버리스(Serverless) 프레임워크로 작성되었으며, 배포된 람다 함수를 Amplify로 생성된 AWS Cognito User Pool의 Pre-SignUp 트리거에 등록해야 합니다. 
+서버리스(Serverless) 프레임워크로 작성되었으며, 배포된 람다 함수를 Amplify로 생성된 AWS Cognito User Pool의 Pre-SignUp 트리거에 등록해야 합니다.  
 상세한 내용은 아래 링크를 걸어 두었습니다.
 # 수정할 내용
 ### 1. Lambda 함수 환경변수 설정
 AWS Lambda 홈페이지에 접속해서 해당 인스턴스의 환경 변수를 직접 추가해 주어야 한다.  
 DEFAULT_IMAGE : 회원가입시 이미지가 입력되지 않은 경우 기본으로 설정될 이미지  
-ENDPOINT : [백앤드](https://github.com/JoonDong2/instagureng-backend)를 배포할 때 관련 서비스로 생성된 AWS API Gateway 주소  
-USER_POOL_ID: `amplfy`에 의해 생성된 AWS Cognito User Pool의 ID 
-참조: [Amplify 초기화](https://joondong.tistory.com/99)
+ENDPOINT : [백앤드](https://github.com/JoonDong2/instagureng-backend)를 배포할 때 관련 서비스로 생성된 AWS API Gateway 주소    
+USER_POOL_ID: `amplfy`에 의해 생성된 AWS Cognito User Pool의 ID  
+참조: [Amplify 초기화](https://joondong.tistory.com/99)  
 **예제**
 ```
 KEY = DEFAULT_IMAGE
@@ -51,6 +51,6 @@ const cognitoidentityserviceprovider
   
 # 참조
 ### [관련 포스트 목록](https://joondong.tistory.com/151)  
-### [인스타그램 클론코딩 웹 (리액트)](https://github.com/JoonDong2/instagureng-frontend) 
+### [인스타그램 클론코딩 웹 (리액트)](https://github.com/JoonDong2/instagureng-frontend)  
 ### [인스타그램 클론코딩 앱 (리액트 네이티브)](https://github.com/JoonDong2/instagureng-app)  
 ### [인스타그램 클론코딩 백앤드](https://github.com/JoonDong2/instagureng-backend)
