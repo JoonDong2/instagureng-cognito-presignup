@@ -11,6 +11,10 @@
   
 서버리스(Serverless) 프레임워크로 작성되었으며, 배포된 람다 함수를 Amplify로 생성된 AWS Cognito User Pool의 Pre-SignUp 트리거에 등록해야 합니다. 
 상세한 내용은 아래 링크를 걸어 두었습니다.
+# 테스트
+    yarn offline
+# 빌드 및 배포
+    yarn deploy
 # 수정할 내용
 ### 1. Lambda 함수 환경변수 설정
 AWS Lambda 홈페이지에 접속해서 해당 인스턴스의 환경 변수를 직접 추가해 주어야 한다.  
